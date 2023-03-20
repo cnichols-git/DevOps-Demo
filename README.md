@@ -12,3 +12,18 @@ To do list:
 - Make a list off all the software being used to achieve this task  
 - Make a visual map of how the process flow looks  
 - Document how to properly shutdown a AWS instance with terraform  
+
+
+<p>For the Terraform the following steps are needed</p>  
+
+<ol>
+<lu>Create VPC</li>
+<li>Create Internet Gateway</li>
+<li>Create Custom route table</li>
+<li>Create subnet</li>
+<li>Associate subnet with route table</li>
+<li>Create Security Group to allow ports 22,80 and 443</li>
+<li>reate a network interface with an ip in the subnet that was created in step 4</li>
+<li>Assign an elastic IP to the network interface created in step </li>
+<li>Create Ubuntu server and install/enable ngnix</li>
+</ol>
