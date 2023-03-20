@@ -9,6 +9,14 @@ terraform {
 
 provider "aws" {
   region = "us-east-2"
-  access_key = "AKIAW3D33ZGX4MTGOUPZ"
-  secret_key = "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"
+  access_key = "xxx"
+  secret_key = "xxx"
+}
+
+resource "aws_instance" "devops-demo" {
+  ami = "ami-00eeedc4036573771"
+  instance_type = "t2.micro"
+  tags = {
+    Name = "Ubuntu"
+  }
 }
