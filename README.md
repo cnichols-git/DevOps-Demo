@@ -11,3 +11,4 @@ To do list:
 
 - Make a list off all the software being used to achieve this task  
 - Make a visual map of how the process flow looks  
+- Document how to properly shutdown a AWS instance with terraform  
