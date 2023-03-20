@@ -1,19 +1,14 @@
-provider "aws" {
-  region = ""
-  access_key = ""
-  secret_key = ""
+terraform {
+  required_providers {
+    aws = {
+      source = "hashicorp/aws"
+      version = "4.59.0"
+    }
+  }
 }
 
-#tag will add metadate to id the resource instance#
-#tags = {
-#  Name = "Ubuntu"
-#}
-
-#tags can also be in the resource#
-resource "aws_instance" "devops-demo" {
-  ami = ""
-  instance_type = ""
-  tags = {
-    Name = "Ubuntu"
-  }
+provider "aws" {
+  region = "us-east-2"
+  access_key = "AKIAW3D33ZGX4MTGOUPZ"
+  secret_key = "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"
 }
