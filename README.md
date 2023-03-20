@@ -17,7 +17,7 @@ To do list:
 <p>For the Terraform the following steps are needed</p>  
 
 <ol>
-<lu>Create VPC</li>
+<li>Create VPC</li>
 <li>Create Internet Gateway</li>
 <li>Create Custom route table</li>
 <li>Create subnet</li>
