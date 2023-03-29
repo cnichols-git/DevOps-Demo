@@ -27,7 +27,7 @@ To do list:
 4. Create subnet
 5. Associate subnet with route table
 6. Create Security Group to allow ports 22,80 and 443
-7. reate a network interface with an ip in the subnet that was created in step 4
+7. Create a network interface with an ip in the subnet that was created in step 4
 8. Assign an elastic IP to the network interface created in step
 9. Create Ubuntu server and install/enable ngnix
 
@@ -37,3 +37,4 @@ To do list:
 - Make a visual map of how the process flow looks  
 - Document how to properly shutdown a AWS instance with terraform  
 - document all the things  
+- look into variables and modules  
