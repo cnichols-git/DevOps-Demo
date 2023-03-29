@@ -2,12 +2,11 @@
 
 ## Things to know before you begin
 
-<p>For this to work you will need to have AWS set up with an account that allows you to create EC2 isntances.</p>
-<p>You will need aws-cl and terraform installed</p>  
-<p>You will need to **Never** put your AWS access key or access token git as it will be noticed by AWS and they will apply a security rule on your account to prevent malicous activity on your account</p>  
-<p>Set up a .aws credential folder by running the command <code>aws configure</code></p>
-[link to the aws-cli set up](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html)
+For this to work you will need to have AWS set up with an account that allows you to create EC2 isntances.  
+You will need aws-cl and terraform installed.  
+You will need to **bold text** put your AWS access key or access token git as it will be noticed by AWS and they will apply a security rule on your account to prevent malicous activity on your account.  
 
+Set up a .aws credential folder by running the command <code>aws configure</code> [aws-cli instructions](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html)  
 
 To do list:  
 - ~~Set up git repo~~  
@@ -37,4 +36,7 @@ To do list:
 - Make a visual map of how the process flow looks  
 - Document how to properly shutdown a AWS instance with terraform  
 - document all the things  
+<<<<<<< HEAD
 - look into variables and modules  
+=======
+>>>>>>> cf33b639bb447fc83e3790ae9c4bc279558fc503
