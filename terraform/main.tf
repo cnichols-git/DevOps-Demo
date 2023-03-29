@@ -129,24 +129,14 @@ resource "aws_instance" "web_server_instance" {
     network_interface_id = aws_network_interface.main_network_interface.id
   }
 
-  # user_data = <<-EOF
-  #               #!/bin/bash
-  #               sudo apt update -y
-  #               sudo apt install apache2 -y
-  #               sudo systemctl start apache2
-  #               sudo bash -c 'echo If you can read this it worked! > /var/www/html/index.html'
-  #               sudo bash -c 'echo If you can read this it worked! > /var/www/html/index.html'
-  #               EOF
-  # tags = {
-  #   Name = "web-server"
-  # }
-
-    user_data = <<-EOF
+  user_data = <<-EOF
                 #!/bin/bash
-                sudo mkdir /var/www/html/index.html/test'
-                sudo systemctl restart apache2
+                sudo apt update -y
+                sudo apt install apache2 -y
+                sudo systemctl start apache2
+                sudo bash -c 'echo your very first web server > /var/www/html/index.html'
                 EOF
   tags = {
-    Name = "web-server-test"
+    Name = "web-server"
   }
 }
