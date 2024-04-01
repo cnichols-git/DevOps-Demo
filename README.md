@@ -17,3 +17,13 @@ Nine steps to creating a Terrafrom file to launch an AWS instance with Apache in
 ## Lessons Learned
 
 - Know that you can never add AWS credientals in Github as they will detect this and put a security group on your account and prevent you from successfully making changes with Terrafom
+One thing is certain things will change:
+
+for the current lab set up when have the following
+
+https://phoenixnap.com/kb/install-kubernetes-on-rocky-linux - do not use
+https://www.linuxtechi.com/install-kubernetes-on-rockylinux-almalinux/
+
+- 3 nodes
+- one node is the ctrlr
+- installed kubernetes, docker and 
